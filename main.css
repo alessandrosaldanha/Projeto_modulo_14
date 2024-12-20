@@ -1,0 +1,92 @@
+body {
+    font-family: "Inter", serif;
+}
+
+.navbar {
+    background-color: #2C3E50;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #2C3E50;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #FFF;
+}
+
+.section-title {
+    font-family: "Inter", serif;
+}
+
+#sobre-hoteis, #acomodacoes {
+    background-color: #F4F4F4;
+}
+
+.text-colored {
+    color: #2C3E50;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #2C3E50;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #2C3E50;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+li {
+    margin-bottom: 10px; /
+}
+.carousel-inner img {
+    height: 500px; 
+    object-fit: cover;
+    
+}
+.texto-limitado {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.img-custom {
+    width: 100%; 
+    height: 50%; 
+    object-fit: cover;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        display: block;
+    }
+}

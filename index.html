@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Signika:wght@300..700&family=Source+Sans+3:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Click Aluguel</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-hoteis" class="nav-link">
+                            <i class="bi bi-building me-1"></i>
+                            Sobre o Hotel
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-tag me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#acomodacoes" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Acomodações
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-geo-alt me-1"></i>
+                            Localização e Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-hoteis">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000 ">
+                        <img class="w-100 " src="https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_1280.jpg" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100 " src="https://cdn.pixabay.com/photo/2018/02/24/17/17/window-3178666_1280.jpg" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100 " src="https://cdn.pixabay.com/photo/2015/07/14/07/18/greece-844269_1280.jpg" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://cdn.pixabay.com/photo/2015/09/07/19/12/hotel-928937_1280.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">Click Aluguel</span></h2>
+                            <p>
+                                O Click Aluguel é a plataforma ideal para encontrar a sua próxima hospedagem de forma prática e rápida. Conectamos você às melhores opções de imóveis para aluguel, desde aconchegantes apartamentos até luxuosos hotéis e pousadas. Com uma interface simples e intuitiva, oferecemos filtros avançados para que você encontre o espaço perfeito, seja para lazer, trabalho ou longas estadias.
+                            </p>
+                            <h3 class="section-title">Nosso <span class="text-colored"> Objetivo </span></h3>
+                            <p>
+                                Nosso objetivo é proporcionar uma experiência segura e confiável, garantindo que você tenha acesso às melhores acomodações disponíveis, em qualquer lugar e a qualquer momento. No Click Aluguel, a sua estadia perfeita está a apenas um clique de distância!
+                            </p>
+                            <ul>
+                                <li>✔️ Facilidade de busca: Encontre imóveis rapidamente com filtros avançados e uma interface intuitiva.</li>
+                                <li>🌎 Opções em todo o Brasil: Descubra acomodações em diversas regiões, com diferentes estilos e preços.</li>
+                                <li>🔒 Segurança e confiança: Anúncios verificados e suporte dedicado para garantir uma experiência tranquila.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://images.pexels.com/photos/9391354/pexels-photo-9391354.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Festa
+                        </h3>
+                        <p>
+                            Uma celebração repleta de alegria e momentos inesquecíveis. Venha festejar com a gente e criar memórias especiais!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2016/06/29/04/39/bride-1486004_1280.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepção de Casamento
+                        </h3>
+                        <p>
+                            Comemore conosco o início de uma nova jornada. Sua presença tornará nosso dia ainda mais especial!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternização
+                        </h3>
+                        <p>
+                            Junte-se a nós para celebrar conquistas e fortalecer laços em um evento de confraternização descontraído e alegre!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="acomodacoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossas <span class="text-colored">Acomodações</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-cardapio">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#hoteis" class="fw-bold text-start nav-link text-colored active">Hotéis & Hostels</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#pousadas" class="fw-bold text-start nav-link text-colored">Pousadas</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#apartamentos" class="fw-bold text-start nav-link text-colored">Apartamentos</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#casas-de-temporadas" class="fw-bold text-start nav-link text-colored">Casas de temporada</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#chales" class="fw-bold text-start nav-link text-colored">Chalés</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="hoteis">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2016/11/18/22/21/restaurant-1837150_1280.jpg" alt="Bela vista">
+                                        <h5 class="text-colored fw-bold mt-2">Hotel Bela Vista</h5>
+                                        <p class="texto-limitado">
+                                            Localizado no coração da cidade, o Hotel Bela Vista oferece uma vista panorâmica incrível, com acomodações confortáveis e um serviço impecável para tornar sua estadia inesquecível.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg" alt="Encanto">
+                                        <h5 class="text-colored fw-bold mt-2">Hotel Encanto do Mar</h5>
+                                        <p class="texto-limitado">
+                                            Desfrute de um ambiente tranquilo e acolhedor na Pousada Encanto do Mar, ideal para quem busca relaxamento perto das águas cristalinas e uma experiência rústica e charmosa.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_1280.jpg" alt="Sol e Lua">
+                                        <h5 class="text-colored fw-bold mt-2">Hotel Sol e Lua</h5>
+                                        <p class="texto-limitado">
+                                            Com uma localização privilegiada, o Hotel Sol e Lua oferece quartos sofisticados, piscina ao ar livre e uma vista deslumbrante do pôr do sol para momentos de total lazer e conforto.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923_1280.jpg" alt="Águas Claras">
+                                        <h5 class="text-colored fw-bold mt-2">Hotel Águas Claras</h5>
+                                        <p class="texto-limitado">
+                                            No Resort Águas Claras, você encontra uma experiência de luxo com uma vasta gama de atividades, desde spa até esportes aquáticos, ideal para famílias e casais em busca de diversão e descanso.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2023/11/06/23/04/living-room-8370686_1280.jpg" alt="Palácio">
+                                        <h5 class="text-colored fw-bold mt-2">Hotel Palácio do Caribe</h5>
+                                        <p class="texto-limitado">
+                                            O Palácio do Caribe é um refúgio de luxo à beira-mar, com serviços exclusivos, gastronomia de classe mundial e acomodações refinadas para uma experiência única no paraíso.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2017/08/06/14/56/people-2593251_1280.jpg" alt="Jardim do sol">
+                                        <h5 class="text-colored fw-bold mt-2">Hotel Jardim do Sol</h5>
+                                        <p class="texto-limitado">
+                                            A Pousada Jardim do Sol oferece um ambiente acolhedor e relaxante, com jardins floridos e suítes confortáveis, perfeito para quem busca paz e proximidade com a natureza.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2020/01/15/18/01/room-4768551_1280.jpg" alt="Maravilha do Norte">
+                                        <h5 class="text-colored fw-bold mt-2">Hotel Maravilha do Norte</h5>
+                                        <p class="texto-limitado">
+                                            Com uma estrutura moderna e localização estratégica, o Hotel Maravilha do Norte oferece comodidades de primeira linha e um serviço impecável para todos os tipos de viajantes.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2014/07/10/17/17/bedroom-389254_1280.jpg" alt="Hotel do Vale">
+                                        <h5 class="text-colored fw-bold mt-2">Hotel do Vale</h5>
+                                        <p class="texto-limitado">
+                                            A Estalagem do Vale é um charme no campo, com um ambiente tranquilo, acomodações aconchegantes e fácil acesso às belas trilhas da região para os amantes da natureza.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pousadas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2017/08/23/22/56/inn-2674733_1280.jpg" alt="Cerveja">
+                                        <h5 class="text-colored fw-bold mt-2">Pousada Bela Vista</h5>
+                                        <p class="texto-limitado">
+                                            A Pousada Bela Vista oferece uma experiência relaxante em meio à natureza, com uma vista deslumbrante para as montanhas. Com suítes acolhedoras e um ambiente tranquilo, é o lugar perfeito para quem busca descanso e proximidade com a natureza, sem abrir mão do conforto.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2015/10/20/15/26/samos-997876_1280.jpg" alt="Vinho">
+                                        <h5 class="text-colored fw-bold mt-2">Pousada Rancho Alto</h5>
+                                        <p class="texto-limitado">
+                                            Situada em uma localização privilegiada, a Pousada Rancho Alto proporciona uma estadia confortável em um ambiente rústico e charmoso. Com infraestrutura completa, incluindo piscina e área para caminhadas, é ideal para quem busca um refúgio acolhedor e em harmonia com o ambiente rural.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="apartamentos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2015/07/08/10/29/appartment-building-835817_1280.jpg" alt="Nome da entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Apartamento Vintegers</h5>
+                                        <p class="texto-limitado">
+                                            Situada em uma localização privilegiada, o Apartemento Vintegers proporciona uma estadia confortável em um ambiente rústico
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="casas-de-temporadas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2017/10/06/13/58/old-village-2823175_1280.jpg" alt="Casas">
+                                        <h5 class="text-colored fw-bold mt-2">Casa Rios</h5>
+                                        <p class="texto-limitado">
+                                            Situada em uma localização privilegiada, a Casa Rios Vintegers
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2021/07/04/17/38/house-6387074_1280.jpg" alt="Casa">
+                                        <h5 class="text-colored fw-bold mt-2">Casa Campos Lindos</h5>
+                                        <p class="texto-limitado">
+                                            Situada em uma localização privilegiada, a Casa Campos Lindos
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="chales">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2022/12/30/14/42/cottages-7687138_1280.jpg" alt="Chale Retro">
+                                        <h5 class="text-colored fw-bold mt-2">Chalés Rotos</h5>
+                                        <p class="texto-limitado">
+                                            Situada em uma localização privilegiada, o Chalés Rotos
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom" src="https://cdn.pixabay.com/photo/2021/11/22/20/53/town-6817417_1280.jpg" alt="Chales Rusit">
+                                        <h5 class="text-colored fw-bold mt-2">Chalés Shopia</h5>
+                                        <p class="texto-limitado">
+                                            Situada em uma localização privilegiada, o Chalés Shopia
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+          <p>&copy; 2024 Click Aluguel. Todos os direitos reservados.</p>
+          <p>
+            <a href="#" class="text-white me-2">Política de Privacidade</a>
+            <a href="#" class="text-white">Termos de Serviço</a>
+          </p>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
